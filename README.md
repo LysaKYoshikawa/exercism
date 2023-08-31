@@ -19,16 +19,16 @@ Exercicios de algoritmos do https://exercism.org/ voltados para JavaScript
 
 ### :loudspeaker: Features 
 
-| Javascript         |               |
-| :----------------- | :------------ |
-| Anagram            | roman-numerals|
-| bank-account       | transpose     |
-| collatz-conjecture | word-count    |
-| hello-world        |               |
-| high-scores        |               |
-| isogram            |               |
-| lasagna            |               |
-| protein-translation|               |
+| Javascript         |                      |
+| :----------------- | :------------        |
+| Anagram            | roman-numerals       |
+| bank-account       | transpose            |
+| collatz-conjecture | word-count           |
+| hello-world        | analyns-infiltration |
+| high-scores        |                      |
+| isogram            |                      |
+| lasagna            |                      |
+| protein-translation|                      |
 
 
 # :monocle_face: Tecnologias Ultilizadas
