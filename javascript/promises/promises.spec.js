@@ -51,11 +51,11 @@ describe('promises', () => {
       return expect(all([])).resolves.toEqual([]);
     });
 
-    xtest('resolves when given no arguments', () => {
+    test('resolves when given no arguments', () => {
       return expect(all()).resolves.toBeUndefined();
     });
 
-    xtest('resolved values appear in the order they are passed in', () => {
+    test('resolved values appear in the order they are passed in', () => {
       const FIRST = 'FIRST';
       const SECOND = 'SECOND';
       const THIRD = 'THIRD';
@@ -67,7 +67,7 @@ describe('promises', () => {
       return expect(result).resolves.toEqual([FIRST, SECOND, THIRD]);
     });
 
-    xtest('rejects if any promises fail', () => {
+    test('rejects if any promises fail', () => {
       const result = all([fastPromise('fast'), failedPromise(null)]);
       return expect(result).rejects.toEqual(failedCallback);
     });

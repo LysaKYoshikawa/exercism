@@ -19,9 +19,9 @@ export const promisify = (originalFunction) => {
 
 export const all = (promise) => {
   return new Promise((resolve, rejects) =>{
-    resolve = []
-
-
+    setTimeout(() => {resolve([]).then([promise]);
+    })
+    
   })
 };
 
